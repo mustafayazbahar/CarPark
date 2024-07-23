@@ -4294,3 +4294,16 @@ System.TimeoutException: A timeout occured after 30000ms selecting a server usin
 2024-07-23 14:16:15.947 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/data/json/files.json  
 2024-07-23 14:16:15.949 +03:00 [INF] The file /assets/data/json/files.json was not modified
 2024-07-23 14:16:15.951 +03:00 [INF] Request finished in 3.955ms 304 application/json
+2024-07-23 14:38:40.860 +03:00 [INF] User profile is available. Using 'C:\Users\fmaci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-23 14:38:41.369 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-23 14:38:41.369 +03:00 [INF] Hosting environment: Development
+2024-07-23 14:38:41.369 +03:00 [INF] Content root path: C:\Users\fmaci\source\repos\CarPark\CarPark.User
+2024-07-23 14:38:41.428 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2024-07-23 14:38:41.530 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2024-07-23 14:38:41.555 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2024-07-23 14:38:41.643 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2024-07-23 14:38:41.666 +03:00 [INF] Executing ViewResult, running view Index.
+2024-07-23 14:38:41.867 +03:00 [INF] Executed ViewResult - view Index executed in 209.5723ms.
+2024-07-23 14:38:41.871 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 226.7149ms
+2024-07-23 14:38:41.871 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2024-07-23 14:38:41.877 +03:00 [INF] Request finished in 455.5048ms 200 text/html; charset=utf-8
